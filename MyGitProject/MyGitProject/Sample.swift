@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Sample.swift
 //  MyGitProject
 //
 //  Created by Raja Pratap Singh on 31/01/16.
@@ -8,25 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Sample: NSObject {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    func abc() {
         
-        
-        self.getRestService()
-        
-        //self.postRestService()
-        
-        //self.deleteRestService()
-
-        
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    //MARK: Get first post
-    
-    func getRestService() {
+        // MARK: Using NSURLSession
         
         // Get first post
         let postEndpoint: String = "http://jsonplaceholder.typicode.com/posts/1"
@@ -40,18 +26,7 @@ class ViewController: UIViewController {
         let session = NSURLSession(configuration: config)
         
         let task = session.dataTaskWithRequest(urlRequest, completionHandler: { (data, response, error) in
-            
-            do {
-                let post = try NSJSONSerialization.JSONObjectWithData(data!, options: [])
-                
-                print(post)
-            }
-                
-            catch {
-                print("Exception")
-            }
-            
-            /*guard let responseData = data else {
+            guard let responseData = data else {
                 print("Error: did not receive data")
                 return
             }
@@ -77,19 +52,15 @@ class ViewController: UIViewController {
             // so check for a title and print it if we have one
             if let postTitle = post["title"] as? String {
                 print("The title is: " + postTitle)
-            }*/
+            }
         })
         task.resume()
-    }
-    
-    //MARK: Get first post
-    
-    func postRestService() {
         
+        // Create new post
         let postsEndpoint: String = "http://jsonplaceholder.typicode.com/posts"
         guard let postsURL = NSURL(string: postsEndpoint) else {
             print("Error: cannot create URL")
-            
+           
             return
         }
         
@@ -107,21 +78,7 @@ class ViewController: UIViewController {
             
             let createTask = session.dataTaskWithRequest(postsUrlRequest, completionHandler: {
                 (data, response, error) in
-                
-                
-                do {
-                    let post = try NSJSONSerialization.JSONObjectWithData(data!, options: [])
-                    
-                    print(post)
-                }
-                    
-                catch {
-                    print("Exception")
-                }
-
-                
-                
-                /*guard let responseData = data else {
+                guard let responseData = data else {
                     print("Error: did not receive data")
                     return
                 }
@@ -141,31 +98,23 @@ class ViewController: UIViewController {
                     if let postID = post["id"] {
                         print("The post ID is \(postID)")
                     }
-                    
+
                 }
                     
                 catch {
                     print("Exception")
-                }*/
-                
-            })
+                }
+
+                            })
             createTask.resume()
         } catch {
             print("Error: cannot create JSON from post")
         }
-
-    
-    }
-    
-    func deleteRestService() {
         
         // Delete first post
         let firstPostEndpoint: String = "http://jsonplaceholder.typicode.com/posts/1"
         let firstPostUrlRequest = NSMutableURLRequest(URL: NSURL(string: firstPostEndpoint)!)
         firstPostUrlRequest.HTTPMethod = "DELETE"
-        
-        let config = NSURLSessionConfiguration.defaultSessionConfiguration()
-        let session = NSURLSession(configuration: config)
         
         let deleteTask = session.dataTaskWithRequest(firstPostUrlRequest, completionHandler: {
             (data, response, error) in
@@ -175,16 +124,7 @@ class ViewController: UIViewController {
             }
         })
         deleteTask.resume()
+    
+    }
 
-    
-    }
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
 }
-
