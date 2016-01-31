@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B6566A21C5E715E008D79F1 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6566A11C5E715E008D79F1 /* NextViewController.swift */; };
+		DF44694B1C5E7DFE0049D533 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44694A1C5E7DFE0049D533 /* Sample.swift */; };
 		DFED83EC1C5E6AAB00028C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED83EB1C5E6AAB00028C55 /* AppDelegate.swift */; };
 		DFED83EE1C5E6AAB00028C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED83ED1C5E6AAB00028C55 /* ViewController.swift */; };
 		DFED83F11C5E6AAB00028C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFED83EF1C5E6AAB00028C55 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		9B6566A11C5E715E008D79F1 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		DF44694A1C5E7DFE0049D533 /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		DFED83E81C5E6AAB00028C55 /* MyGitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFED83EB1C5E6AAB00028C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFED83ED1C5E6AAB00028C55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				DFED83F41C5E6AAB00028C55 /* LaunchScreen.storyboard */,
 				DFED83F71C5E6AAB00028C55 /* Info.plist */,
 				9B6566A11C5E715E008D79F1 /* NextViewController.swift */,
+				DF44694A1C5E7DFE0049D533 /* Sample.swift */,
 			);
 			path = MyGitProject;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFED83EE1C5E6AAB00028C55 /* ViewController.swift in Sources */,
+				DF44694B1C5E7DFE0049D533 /* Sample.swift in Sources */,
 				9B6566A21C5E715E008D79F1 /* NextViewController.swift in Sources */,
 				DFED83EC1C5E6AAB00028C55 /* AppDelegate.swift in Sources */,
 			);
