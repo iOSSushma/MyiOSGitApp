@@ -21,6 +21,7 @@
 		9BE2199C1C78DBA600AF0CC8 /* orderslist.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BE2199B1C78DBA600AF0CC8 /* orderslist.json */; };
 		9BE219A11C78DCB100AF0CC8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE219A01C78DCB100AF0CC8 /* Order.swift */; };
 		9BE219A31C78DE7300AF0CC8 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE219A21C78DE7300AF0CC8 /* OrderTableViewCell.swift */; };
+		9BE219A51C78E85000AF0CC8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE219A41C78E85000AF0CC8 /* DetailViewController.swift */; };
 		DFED83EC1C5E6AAB00028C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED83EB1C5E6AAB00028C55 /* AppDelegate.swift */; };
 		DFED83F11C5E6AAB00028C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFED83EF1C5E6AAB00028C55 /* Main.storyboard */; };
 		DFED83F31C5E6AAB00028C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFED83F21C5E6AAB00028C55 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		9BE2199B1C78DBA600AF0CC8 /* orderslist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = orderslist.json; path = MyGitProject/orderslist.json; sourceTree = "<group>"; };
 		9BE219A01C78DCB100AF0CC8 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../Order.swift; sourceTree = "<group>"; };
 		9BE219A21C78DE7300AF0CC8 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		9BE219A41C78E85000AF0CC8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DFED83E81C5E6AAB00028C55 /* MyGitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFED83EB1C5E6AAB00028C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFED83F01C5E6AAB00028C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				9BE219A01C78DCB100AF0CC8 /* Order.swift */,
 				9BE219A21C78DE7300AF0CC8 /* OrderTableViewCell.swift */,
 				9BE219911C78CB9200AF0CC8 /* ListViewController.swift */,
+				9BE219A41C78E85000AF0CC8 /* DetailViewController.swift */,
 			);
 			name = Secondtab;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				9BE219921C78CB9200AF0CC8 /* ListViewController.swift in Sources */,
 				9BE2197E1C78C2F000AF0CC8 /* AuthenticationController.swift in Sources */,
 				9BE219A31C78DE7300AF0CC8 /* OrderTableViewCell.swift in Sources */,
+				9BE219A51C78E85000AF0CC8 /* DetailViewController.swift in Sources */,
 				9BE2198B1C78CA9E00AF0CC8 /* MapViewController.swift in Sources */,
 				DFED83EC1C5E6AAB00028C55 /* AppDelegate.swift in Sources */,
 			);
