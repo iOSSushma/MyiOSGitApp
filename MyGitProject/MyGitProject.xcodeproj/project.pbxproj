@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B6566A21C5E715E008D79F1 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6566A11C5E715E008D79F1 /* NextViewController.swift */; };
-		DF44694B1C5E7DFE0049D533 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44694A1C5E7DFE0049D533 /* Sample.swift */; };
+		9BE2197E1C78C2F000AF0CC8 /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2197D1C78C2F000AF0CC8 /* AuthenticationController.swift */; };
+		9BE219851C78C50500AF0CC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE219841C78C50500AF0CC8 /* LoginViewController.swift */; };
+		9BE219871C78C58400AF0CC8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE219861C78C58400AF0CC8 /* Login.storyboard */; };
+		9BE219891C78C61100AF0CC8 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE219881C78C61100AF0CC8 /* MainTabViewController.swift */; };
+		9BE2198B1C78CA9E00AF0CC8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2198A1C78CA9E00AF0CC8 /* MapViewController.swift */; };
+		9BE2198E1C78CABE00AF0CC8 /* FirstTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE2198C1C78CABE00AF0CC8 /* FirstTab.storyboard */; };
+		9BE219901C78CB4200AF0CC8 /* SecondTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE2198F1C78CB4200AF0CC8 /* SecondTab.storyboard */; };
+		9BE219921C78CB9200AF0CC8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE219911C78CB9200AF0CC8 /* ListViewController.swift */; };
+		9BE219951C78CC6C00AF0CC8 /* xcelenergy-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE219941C78CC6C00AF0CC8 /* xcelenergy-logo.png */; };
+		9BE219981C78CDAC00AF0CC8 /* ThirdTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE219961C78CDAC00AF0CC8 /* ThirdTab.storyboard */; };
+		9BE2199A1C78CE2100AF0CC8 /* TimeSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE219991C78CE2100AF0CC8 /* TimeSheetViewController.swift */; };
+		9BE2199C1C78DBA600AF0CC8 /* orderslist.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BE2199B1C78DBA600AF0CC8 /* orderslist.json */; };
+		9BE219A11C78DCB100AF0CC8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE219A01C78DCB100AF0CC8 /* Order.swift */; };
+		9BE219A31C78DE7300AF0CC8 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE219A21C78DE7300AF0CC8 /* OrderTableViewCell.swift */; };
 		DFED83EC1C5E6AAB00028C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED83EB1C5E6AAB00028C55 /* AppDelegate.swift */; };
-		DFED83EE1C5E6AAB00028C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED83ED1C5E6AAB00028C55 /* ViewController.swift */; };
 		DFED83F11C5E6AAB00028C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFED83EF1C5E6AAB00028C55 /* Main.storyboard */; };
 		DFED83F31C5E6AAB00028C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFED83F21C5E6AAB00028C55 /* Assets.xcassets */; };
 		DFED83F61C5E6AAB00028C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFED83F41C5E6AAB00028C55 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B6566A11C5E715E008D79F1 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
-		DF44694A1C5E7DFE0049D533 /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		9BE2197D1C78C2F000AF0CC8 /* AuthenticationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
+		9BE219841C78C50500AF0CC8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9BE219861C78C58400AF0CC8 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9BE219881C78C61100AF0CC8 /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		9BE2198A1C78CA9E00AF0CC8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9BE2198D1C78CABE00AF0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FirstTab.storyboard; sourceTree = "<group>"; };
+		9BE2198F1C78CB4200AF0CC8 /* SecondTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondTab.storyboard; sourceTree = "<group>"; };
+		9BE219911C78CB9200AF0CC8 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		9BE219941C78CC6C00AF0CC8 /* xcelenergy-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xcelenergy-logo.png"; sourceTree = "<group>"; };
+		9BE219971C78CDAC00AF0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ThirdTab.storyboard; sourceTree = "<group>"; };
+		9BE219991C78CE2100AF0CC8 /* TimeSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSheetViewController.swift; sourceTree = "<group>"; };
+		9BE2199B1C78DBA600AF0CC8 /* orderslist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = orderslist.json; path = MyGitProject/orderslist.json; sourceTree = "<group>"; };
+		9BE219A01C78DCB100AF0CC8 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../Order.swift; sourceTree = "<group>"; };
+		9BE219A21C78DE7300AF0CC8 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 		DFED83E81C5E6AAB00028C55 /* MyGitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFED83EB1C5E6AAB00028C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFED83ED1C5E6AAB00028C55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFED83F01C5E6AAB00028C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFED83F21C5E6AAB00028C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFED83F51C5E6AAB00028C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,10 +61,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BE2197F1C78C31600AF0CC8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BE2197D1C78C2F000AF0CC8 /* AuthenticationController.swift */,
+				9BE219841C78C50500AF0CC8 /* LoginViewController.swift */,
+				9BE219881C78C61100AF0CC8 /* MainTabViewController.swift */,
+				9BE219811C78C33D00AF0CC8 /* FirstTab */,
+				9BE219821C78C34500AF0CC8 /* Secondtab */,
+				9BE219831C78C34D00AF0CC8 /* thirdtab */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9BE219801C78C33100AF0CC8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DFED83EF1C5E6AAB00028C55 /* Main.storyboard */,
+				9BE219961C78CDAC00AF0CC8 /* ThirdTab.storyboard */,
+				9BE2198F1C78CB4200AF0CC8 /* SecondTab.storyboard */,
+				9BE2198C1C78CABE00AF0CC8 /* FirstTab.storyboard */,
+				9BE219861C78C58400AF0CC8 /* Login.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		9BE219811C78C33D00AF0CC8 /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				9BE2198A1C78CA9E00AF0CC8 /* MapViewController.swift */,
+			);
+			name = FirstTab;
+			sourceTree = "<group>";
+		};
+		9BE219821C78C34500AF0CC8 /* Secondtab */ = {
+			isa = PBXGroup;
+			children = (
+				9BE219A01C78DCB100AF0CC8 /* Order.swift */,
+				9BE219A21C78DE7300AF0CC8 /* OrderTableViewCell.swift */,
+				9BE219911C78CB9200AF0CC8 /* ListViewController.swift */,
+			);
+			name = Secondtab;
+			sourceTree = "<group>";
+		};
+		9BE219831C78C34D00AF0CC8 /* thirdtab */ = {
+			isa = PBXGroup;
+			children = (
+				9BE219991C78CE2100AF0CC8 /* TimeSheetViewController.swift */,
+			);
+			name = thirdtab;
+			sourceTree = "<group>";
+		};
+		9BE219931C78CC5800AF0CC8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9BE219941C78CC6C00AF0CC8 /* xcelenergy-logo.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		9BE2199D1C78DBB000AF0CC8 /* json Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BE2199B1C78DBA600AF0CC8 /* orderslist.json */,
+			);
+			name = "json Files";
+			sourceTree = "<group>";
+		};
 		DFED83DF1C5E6AAB00028C55 = {
 			isa = PBXGroup;
 			children = (
 				DFED83EA1C5E6AAB00028C55 /* MyGitProject */,
+				9BE2199D1C78DBB000AF0CC8 /* json Files */,
 				DFED83E91C5E6AAB00028C55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,13 +149,12 @@
 			isa = PBXGroup;
 			children = (
 				DFED83EB1C5E6AAB00028C55 /* AppDelegate.swift */,
-				DFED83ED1C5E6AAB00028C55 /* ViewController.swift */,
-				DFED83EF1C5E6AAB00028C55 /* Main.storyboard */,
+				9BE219801C78C33100AF0CC8 /* Storyboard */,
+				9BE2197F1C78C31600AF0CC8 /* ViewController */,
+				9BE219931C78CC5800AF0CC8 /* images */,
 				DFED83F21C5E6AAB00028C55 /* Assets.xcassets */,
 				DFED83F41C5E6AAB00028C55 /* LaunchScreen.storyboard */,
 				DFED83F71C5E6AAB00028C55 /* Info.plist */,
-				9B6566A11C5E715E008D79F1 /* NextViewController.swift */,
-				DF44694A1C5E7DFE0049D533 /* Sample.swift */,
 			);
 			path = MyGitProject;
 			sourceTree = "<group>";
@@ -128,8 +217,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE219871C78C58400AF0CC8 /* Login.storyboard in Resources */,
+				9BE2198E1C78CABE00AF0CC8 /* FirstTab.storyboard in Resources */,
 				DFED83F61C5E6AAB00028C55 /* LaunchScreen.storyboard in Resources */,
+				9BE219951C78CC6C00AF0CC8 /* xcelenergy-logo.png in Resources */,
+				9BE219981C78CDAC00AF0CC8 /* ThirdTab.storyboard in Resources */,
 				DFED83F31C5E6AAB00028C55 /* Assets.xcassets in Resources */,
+				9BE219901C78CB4200AF0CC8 /* SecondTab.storyboard in Resources */,
+				9BE2199C1C78DBA600AF0CC8 /* orderslist.json in Resources */,
 				DFED83F11C5E6AAB00028C55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFED83EE1C5E6AAB00028C55 /* ViewController.swift in Sources */,
-				DF44694B1C5E7DFE0049D533 /* Sample.swift in Sources */,
-				9B6566A21C5E715E008D79F1 /* NextViewController.swift in Sources */,
+				9BE219851C78C50500AF0CC8 /* LoginViewController.swift in Sources */,
+				9BE2199A1C78CE2100AF0CC8 /* TimeSheetViewController.swift in Sources */,
+				9BE219A11C78DCB100AF0CC8 /* Order.swift in Sources */,
+				9BE219891C78C61100AF0CC8 /* MainTabViewController.swift in Sources */,
+				9BE219921C78CB9200AF0CC8 /* ListViewController.swift in Sources */,
+				9BE2197E1C78C2F000AF0CC8 /* AuthenticationController.swift in Sources */,
+				9BE219A31C78DE7300AF0CC8 /* OrderTableViewCell.swift in Sources */,
+				9BE2198B1C78CA9E00AF0CC8 /* MapViewController.swift in Sources */,
 				DFED83EC1C5E6AAB00028C55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +251,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		9BE2198C1C78CABE00AF0CC8 /* FirstTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE2198D1C78CABE00AF0CC8 /* Base */,
+			);
+			name = FirstTab.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE219961C78CDAC00AF0CC8 /* ThirdTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE219971C78CDAC00AF0CC8 /* Base */,
+			);
+			name = ThirdTab.storyboard;
+			sourceTree = "<group>";
+		};
 		DFED83EF1C5E6AAB00028C55 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

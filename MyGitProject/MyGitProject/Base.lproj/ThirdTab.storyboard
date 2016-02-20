@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xe2-mC-atG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Today's Order-->
+        <scene sceneID="JpR-tG-Jiq">
+            <objects>
+                <viewController id="duk-ml-QON" customClass="TimeSheetViewController" customModule="MyGitProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dx3-ZV-5MJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="4a3-L8-RQo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Dd-pd-dzh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Today's Order" id="b41-Qv-3yi">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="O6C-bv-G3k">
+                            <connections>
+                                <action selector="logoutFromTimeSheet:" destination="duk-ml-QON" id="NLq-n0-kEu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KS1-1U-Kel" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="457"/>
+        </scene>
+        <!--TimeSheet-->
+        <scene sceneID="2Av-Ui-CZt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xe2-mC-atG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="TimeSheet" id="3ET-aS-mQy"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Oqd-q7-JMO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="duk-ml-QON" kind="relationship" relationship="rootViewController" id="j3E-Ad-RBB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tpx-PQ-Myg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-184" y="457"/>
+        </scene>
+    </scenes>
+</document>

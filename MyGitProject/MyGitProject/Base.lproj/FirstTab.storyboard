@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eSs-U0-Iv1">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Map View-->
+        <scene sceneID="U2R-AP-hSD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eSs-U0-Iv1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map View" id="arS-JR-pXt"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Dx-Zl-wqb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="DVJ-ty-Gd3" kind="relationship" relationship="rootViewController" id="NRb-ZO-nOD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jg8-JA-yIz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="-422"/>
+        </scene>
+        <!--Today's Order-->
+        <scene sceneID="2Qj-V9-15k">
+            <objects>
+                <viewController id="DVJ-ty-Gd3" customClass="MapViewController" customModule="MyGitProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bSU-hr-EuB"/>
+                        <viewControllerLayoutGuide type="bottom" id="EYu-u1-QuM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a4K-KS-NkM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Today's Order" id="8qp-J8-ugR">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="BtH-u7-fVj">
+                            <connections>
+                                <action selector="logoutFromMaps:" destination="DVJ-ty-Gd3" id="Rch-mN-0v2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ul-Ni-oR7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="703" y="-461"/>
+        </scene>
+    </scenes>
+</document>
